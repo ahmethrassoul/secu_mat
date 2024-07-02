@@ -1,10 +1,12 @@
-#!/bin.bash 
+#!/bin/bash 
 #
 #
 # This script install and instantiate the TempestSDR application 
 
 echo "Downloading the TempestSDR application..."
-wget https://perso.univ-rennes1.fr/robin.gerzaguet/assests/TempestSDRRuntime.zip 
+wget https://files.inria.fr/redinblack/assets/TempestSDRRuntime.zip
+
+
 
 echo "Unzipping the TempestSDR application..."
 unzip TempestSDRRuntime.zip
