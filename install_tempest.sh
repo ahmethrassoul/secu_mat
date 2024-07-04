@@ -16,4 +16,4 @@ echo "Launching the application and initializing the TempestSDR application... [
 # Issue with MESA driver and Ubutu
 export LD_PRELOAD=/lib/x86_64-linux-gnu/libstdc++.so.6
 # Setup up everything
-./TempestSDRRuntime/bin/TempestSDR
+./TempestSDRRuntime/bin/TempestSDR samplingRate=20e6
